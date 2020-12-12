@@ -1,0 +1,20 @@
+html{
+    background: rgba(2, 73, 105, 0.226);
+}
+.home {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+#homepage{
+    display: flex;
+}
+#guide{
+    text-align: center;
+}
+.left{
+  float: left;
+  overflow: auto;
+
+}
