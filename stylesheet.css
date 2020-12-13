@@ -2,10 +2,12 @@ html{
     background: rgba(2, 73, 105, 0.226);
 }
 .home {
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 #homepage{
     display: flex;
@@ -16,5 +18,24 @@ html{
 .left{
   float: left;
   overflow: auto;
+  padding: 15px;
 
+}
+article{
+    padding: 20px;
+    margin: 20px;
+    border-style: solid;
+}
+
+header{
+    text-align: center;
+}
+.bio{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.ingame{
+    font-style: italic;
 }
